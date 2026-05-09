@@ -43,7 +43,7 @@ By the end of this workshop, you will be able to:
    - Display this value in Go using `fmt.Printf()`
 
 ### Questions
-- What type is returned by `ExecFile()`?
+- What type is returned by `ExecFileOptions()`?
 - How do you handle execution errors?
 - What happens if the file doesn't exist?
 
