@@ -58,7 +58,7 @@ By the end of this workshop, you will be able to:
 **Context**: `starlark.Call()` invokes a Starlark function with arguments.
 
 ### Steps
-1. Reuse the `hello.star` file from Exercise 1
+1. Reuse the `greet.star` file from Exercise 1
 2. In `main.go`:
    - Retrieve the `greet` function from the globals dictionary
    - Call it with your first name as argument (use `starlark.String()` to convert)
