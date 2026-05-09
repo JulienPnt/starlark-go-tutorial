@@ -29,6 +29,8 @@ go.work.sum
 
 go.sum
 
+Exercise-*
+
 # Editor/IDE
 # .idea/
 # .vscode/
