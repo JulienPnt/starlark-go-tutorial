@@ -32,15 +32,15 @@ By the end of this workshop, you will be able to:
 **Context**: `starlark.ExecFile()` executes a Starlark file and retrieves globals.
 
 ### Steps
-1. Create a file `hello.star` containing:
+1. Create a file `greet.star` containing:
    - A global variable `message = "Hello from Starlark"`
    - A function `greet(name)` that returns a formatted greeting message
 
 2. In `main.go`, write code to:
    - Create a `Thread` (Starlark execution context)
-   - Execute `hello.star` using `starlark.ExecFile()`
+   - Execute `greet.star` using `starlark.ExecFileOptions()` (ExecFile is deprecated)
    - Retrieve the global `message` from the returned dictionary
-   - Display this value in Go using `fmt.Println()`
+   - Display this value in Go using `fmt.Printf()`
 
 ### Questions
 - What type is returned by `ExecFile()`?
